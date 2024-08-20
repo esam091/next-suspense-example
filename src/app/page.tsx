@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
         with vs without Suspense. <br />
         <br />
         Use the menu above to navigate.
+
+        <br />
+        The source code is provided <Link className="underline" href='https://github.com/esam091/next-suspense-example'>here</Link>.
       </p>
     </div>
   );
